@@ -280,12 +280,13 @@ the code added so far, which is the following:
 {{#rustdoc_include ../listings/ch02-guessing-game-tutorial/listing-02-01/src/main.rs:print_guess}}
 ```
 
-This line prints the string we saved the user’s input in. The set of curly
-brackets, `{}`, is a placeholder: think of `{}` as little crab pincers that
-hold a value in place. You can print more than one value using curly brackets:
-the first set of curly brackets holds the first value listed after the format
-string, the second set holds the second value, and so on. Printing multiple
-values in one call to `println!` would look like this:
+This line prints the string from the user’s input that was saved in the guess 
+variable. The set of curly brackets, `{}`, is a placeholder: think of `{}` 
+as little crab pincers that hold a value in place. You can print more than 
+one value using curly brackets: the first set of curly brackets holds the 
+first value listed after the format string, the second set holds the second 
+value, and so on. Printing multiple values in one call to `println!` would 
+look like this:
 
 ```rust
 let x = 5;
